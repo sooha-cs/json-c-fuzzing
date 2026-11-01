@@ -15,7 +15,6 @@ A full narrative, including the mistakes along the way, is in [`WRITEUP.md`](WRI
 | Total executions | 272,018,758 |
 | Average speed | about 9,300 exec/s (peaked around 18,000 exec/s early in the run) |
 | Corpus (raw) | 1,261 inputs, grown from 5 seeds |
-| Corpus (minimized) | 402 inputs, same 3,892 unique coverage tuples |
 | Edges found | 590 |
 | Stability | 98.64% |
 | Crashes / hangs | 0 / 0 |
@@ -36,9 +35,8 @@ Coverage had effectively plateaued early. Between the 16-minute mark and the 8-h
 
 ```
 harness/jc_harness.c   persistent-mode AFL++ harness
-seeds/                 5 small hand-written seed files
+build.sh
 results/
-  corpus_min/          minimized corpus (402 files)
   fuzzer_stats         final AFL++ statistics
   plot_data            raw plot data
 ```
