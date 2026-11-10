@@ -4,8 +4,7 @@ Coverage-guided fuzzing of [json-c](https://github.com/json-c/json-c) with AFL++
 
 This is a methodology project, not a vulnerability report. The run found **no crashes or hangs**. json-c is a mature library that is already continuously fuzzed, so a null result was the expected outcome. The goal was to build a correct, fast, reproducible fuzzing pipeline and to understand where it plateaus and why.
 
-A full narrative, including the mistakes along the way, is in [`WRITEUP.md`](WRITEUP.md). 
->TBA Later !
+A full narrative, including the mistakes along the way, is in [`WRITEUP LINK`](https://medium.com/@lastknowngood/fuzzing-json-c-with-afl-and-asan-on-a-4-gb-vm-setup-mistakes-and-a-null-result-1383ec452c42). 
 
 ## Results
 
